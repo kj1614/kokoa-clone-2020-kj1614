@@ -1,0 +1,130 @@
+.user-component {
+  padding: 10px var(--horizontal-space);
+  justify-content: space-between;
+}
+
+.user-component:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.user-component,
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__column:last-child {
+  color: rgb(163, 163, 163);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.user-component__avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 37%;
+  margin-right: 20px;
+}
+
+.user-component__avatar--lg {
+  width: 70px;
+  height: 70px;
+}
+
+.user-component__avatar--sm {
+  width: 55px;
+  height: 55px;
+}
+
+.user-component__avatar--xs {
+  width: 50px;
+  height: 50px;
+}
+
+.user-component__title {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.user-component__title--not-bold {
+  font-weight: inherit;
+}
+
+.user-component__subtitle {
+  color: rgb(163, 163, 163);
+  margin: 8px 0px;
+  font-size: 14px;
+}
+
+.user-component__music__boder {
+  display: table;
+  border: 1px solid var(--music);
+  border-radius: 14px;
+  padding: 6px 8px;
+  box-sizing: border-box;
+  max-width: 220px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 13px;
+}
+
+.user-component__music__cell {
+  display: table-cell;
+}
+
+.user-component__music__cell i {
+  padding-left: 3px;
+}
+
+.user-component__birth__boder {
+  display: table;
+  border: 1px solid var(--birth);
+  border-radius: 14px;
+  padding: 6px 8px;
+  box-sizing: border-box;
+  max-width: 220px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 13px;
+}
+
+.user-component__birth__cell {
+  display: table-cell;
+}
+
+.user-component__birth__cell i {
+  padding-left: 3px;
+  color: var(--birth);
+}
+
+.user-component__add-friend {
+  font-size: 10px;
+  background-color: rgba(0, 0, 0, 0.05);
+  color: var(--gray);
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.ellipsis_1 {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.user-component-time {
+  color: rgb(163, 163, 163);
+  font-size: 13px;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.user-component__phonenumber {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__phonenumber i {
+  margin-left: 3px;
+  color: var(--red);
+}

@@ -1,0 +1,17 @@
+.separate-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+  border-top: var(--separate-border);
+  margin: 0px var(--horizontal-space);
+  color: var(--stone);
+}
+
+.separate-header i {
+  padding-right: 3px;
+}
+
+.just-separate-line {
+  padding: 0px 0px;
+  margin-top: 10px;
+}

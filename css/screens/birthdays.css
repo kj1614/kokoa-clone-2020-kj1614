@@ -1,0 +1,32 @@
+.alt-header__title {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.birthdays-header .alt-header__column:first-child {
+  width: 25%;
+}
+
+.birthdays-header .alt-header__column:nth-child(2) {
+  width: 50%;
+}
+
+.birthdays-header .alt-header__column:last-child {
+  width: 25%;
+}
+
+.friends-birthdays {
+  padding: 0px var(--horizontal-space);
+}
+
+.friends-birthdays h3 {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 0px;
+}
+
+.date-of-birth {
+  font-size: 13px;
+  color: var(--stone);
+  margin-bottom: 5px;
+}

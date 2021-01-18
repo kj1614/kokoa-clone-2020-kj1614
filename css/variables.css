@@ -1,0 +1,14 @@
+:root {
+  --water: #a5e9f1;
+  --sky: #03bbdb;
+  --ocean: #017db2;
+  --gray: #3f3f40;
+  --horizontal-space: 25px;
+  --music: #d562ec;
+  --separate-border: 1px solid rgba(0, 0, 0, 0.08);
+  --stone: rgb(153, 153, 153);
+  --red: rgb(245, 47, 47);
+  --alt-horizontal-space: 20px;
+  --chat-background-color: rgba(171, 203, 209, 1);
+  --birth: rgb(226, 107, 110);
+}

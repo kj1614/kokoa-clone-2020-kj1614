@@ -1,0 +1,12 @@
+.icon-row__icon img {
+  width: 35px;
+  height: 35px;
+}
+
+.more-suggestions-title {
+  padding-top: 25px;
+}
+
+.suggestions-icon-color i {
+  color: var(--ocean);
+}

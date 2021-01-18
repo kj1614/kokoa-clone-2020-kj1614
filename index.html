@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" sizes="16x16 32x32 64x64" href="https://www.flaticon.com/svg/static/icons/svg/3266/3266740.svg">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to WaveyTalk</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>11:12</span>
+        </div>
+        <div class="status-bar__column">
+            <span>26%</span>
+            <i class="fas fa-battery-quarter fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to WaveyTalk</h1>
+        <p class="welcome-header__text">If you have a Wavey Account, log in with your email or phone number.</p>
+    </header>
+
+    <form action="friends.html" method="GET" class="login-form">
+        <input name="username" required class="login-form__input login-form__idpw" type="text" placeholder="Email or phone number" />
+        <input name="password" required class="login-form__input login-form__idpw" type="password" placeholder="password" minlength="10" />
+        <input class="login-form__input login-form__submit" type="submit" value="Log in" />
+        <a class="login-form__a" href="#">Find Wavey Account or Password</a>
+    </form>
+
+    <div class="no-mobile">
+        <span>Your screen is too big 😥</span>
+        <span>Please make the screen size smaller.</span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/6d00a0ead1.js" crossorigin="anonymous"></script>
+</body>
+</html>
